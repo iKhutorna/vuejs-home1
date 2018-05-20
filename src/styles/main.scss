@@ -1,0 +1,112 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	max-width: 975px;
+    width: 945px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 30px;
+	text-align: center;
+	&:first-child {
+		margin-top: 100px;
+	}
+	&_no-m-b {
+		margin-bottom: 0;
+	}
+	&__title {
+		font-size: 48px;
+		max-width: 775px;
+		margin: 0 auto;
+		&_m-b {
+			margin-bottom: 55px;
+		}
+	}
+	&__textual {
+		font-size: 14px;
+		color: #555;
+		line-height: 1.2;
+		&_l {
+			text-align: left;
+		}
+		p {
+			margin-bottom: 15px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	&__photo {
+		margin: 20px 0;
+	}
+	&__btn-more {
+		margin-top: 20px;
+	}
+	&__persons {
+		text-align: center;
+	}
+}
+
+.btn-more {
+	text-align: left;
+	&__icon {
+		width: 25px;
+		height: 25px;
+		border-radius: 50%;
+		border: 2px solid #000;
+		position: relative;
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 10px;
+		img {
+			width: 70%;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}
+	}
+	&__text {
+		color: #000;
+		font-size: 16px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
+.socials {
+	&__item {
+		width: 42px;
+		height: 42px;
+		background: #fff;
+		border-radius: 50%;
+		border: 2px solid #000;
+		position: relative;
+		display: inline-block;
+		margin: 0 3px;
+		img {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}
+		&:hover {
+			border: 2px solid #555151;
+		}
+	}
+	&__fb {
+		width: 30%;
+	}
+	&__tw {
+		width: 50%;
+	}
+	&__in {
+		width: 50%;
+	}
+}
