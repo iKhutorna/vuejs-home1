@@ -46,6 +46,7 @@ export default {
     }
     &__desc {
       font-size: 12px;
+      line-height: 1.4;
     }
   }
 </style>
